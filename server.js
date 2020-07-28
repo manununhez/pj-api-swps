@@ -106,7 +106,7 @@ app.post("/v4-post", function (req, res) {
             range: spreadSheetName + '!' + column + ':' + row,  // TODO: Update placeholder value.
           
             // How the input data should be interpreted.
-            valueInputOption: 'RAW',  // TODO: Update placeholder value.
+            valueInputOption: 'USER_ENTERED',//'RAW',  // TODO: Update placeholder value.
           
             // How the input data should be inserted.
             insertDataOption: 'INSERT_ROWS',  // TODO: Update placeholder value.
