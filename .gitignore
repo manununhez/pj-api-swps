@@ -23,6 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .env
+.env_production
+.env_testing
 
 pj-web-swps/node_modules/.cache
 pj-web-swps/node_modules/.bin
